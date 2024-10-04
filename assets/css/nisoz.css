@@ -45,6 +45,90 @@
 /*--------------------------------------------------------------
 # Utility
 --------------------------------------------------------------*/
+/* Regular */
+@font-face {
+  font-family: 'LemonMilk';
+  src: url('../../assets/fonts/LemonMilkRegular-X3XE2.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Regular Italic */
+@font-face {
+  font-family: 'LemonMilk';
+  src:
+      url('../../assets/fonts/LemonMilkRegularItalic-L3AEy.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'LemonMilk';
+  src:
+      url('../../assets/fonts/LemonMilkBold-gx2B3.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: 'LemonMilk';
+  src:
+      url('../../assets/fonts/LemonMilkBoldItalic-PKZ3P.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Light */
+@font-face {
+  font-family: 'LemonMilk';
+  src:
+      url('../../assets/fonts/LemonMilkLight-owxMq.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Light Italic */
+@font-face {
+  font-family: 'LemonMilk';
+  src:
+      url('../../assets/fonts/LemonMilkLightItalic-7BjPE.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Medium */
+@font-face {
+  font-family: 'LemonMilk';
+  src:
+      url('../../assets/fonts/LemonMilkMedium-mLZYV.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Medium Italic */
+@font-face {
+  font-family: 'LemonMilk';
+  src:
+      url('../../assets/fonts/LemonMilkMediumItalic-d95nl.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'LemonMilk', sans-serif;
+  font-weight: 300;
+
+}
+
+
+
 .mt-20 {
   margin-top: 20px;
 }
@@ -2294,8 +2378,8 @@
 # Common
 --------------------------------------------------------------*/
 :root {
-  --nisoz-font: 'Manrope', sans-serif;
-  --heading-font: 'Barlow Condensed', sans-serif;
+  --nisoz-font: 'LemonMilk', sans-serif;
+  --heading-font: 'LemonMilk', sans-serif;
   --nisoz-color: #717175;
   --nisoz-color-rgb: 113, 113, 117;
   --nisoz-color2: #646466;
@@ -2985,7 +3069,9 @@ h6 {
 }
 
 .topbar__list li a {
-  color: inherit;
+  /* color: inherit; */
+  font-size: 12px;
+  font-weight: 300;
 }
 
 .topbar__list li a:hover {
@@ -3011,8 +3097,10 @@ h6 {
 }
 
 .topbar__menu li a {
-  color: inherit;
+  /* color: inherit; */
   position: relative;
+  font-size: 12px;
+  font-weight: 300;
 }
 
 .topbar__menu li a::after {
@@ -14135,4 +14223,17 @@ body.boxed-wrapper .main-menu__phone {
   width: 25px;
   height: 25px;
   opacity: .4;
+}
+
+
+
+
+
+.topbar-link {
+  color: white;
+}
+
+
+.topbar-map{
+  color:red;
 }
