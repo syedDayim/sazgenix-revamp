@@ -14262,3 +14262,55 @@ body.boxed-wrapper .main-menu__phone {
   z-index: 10;
   height: 100px;
 }
+
+/* WhatsApp Floating Button Style */
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 30px !important;
+  left: 20px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* FontAwesome WhatsApp Icon */
+.whatsapp-float .whatsapp-icon {
+  color: white;
+}
+
+/* Hover effect */
+.whatsapp-float:hover {
+  background-color: #128C7E;
+  transform: scale(1.1);
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+  .whatsapp-float {
+      width: 50px;
+      height: 50px;
+      font-size: 25px;
+      bottom: 15px;
+      right: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .whatsapp-float {
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+      bottom: 10px;
+      right: 10px;
+  }
+}
