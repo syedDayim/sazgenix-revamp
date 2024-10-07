@@ -7258,7 +7258,7 @@ body.locked .page-wrapper {
 
 .service-three__text {
   color: var(--nisoz-black);
-  border-top: 5px solid var(--nisoz-black);
+  border-top: 5px solid var(--saz-white);
   padding-top: 20px;
   margin: 0 0 30px;
 }
@@ -14314,4 +14314,10 @@ body.boxed-wrapper .main-menu__phone {
       bottom: 10px;
       right: 10px;
   }
+}
+
+
+
+.white-col{
+  color: white !important;
 }
