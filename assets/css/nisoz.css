@@ -9395,6 +9395,7 @@ body.locked .page-wrapper {
   transition: all 500ms linear;
   transition-delay: 0s;
   transform: scale(1);
+  color: var(--saz-white);
 }
 
 .choose-two__box__title {
@@ -9774,7 +9775,7 @@ body.locked .page-wrapper {
 
 .main-footer__social a:hover {
   background-color: var(--nisoz-base);
-  color: var(--nisoz-black);
+  color: var(--saz-white);
 }
 
 .main-footer__navmenu {
